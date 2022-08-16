@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  font-family:cursive;
+
+}
+
+body{
+  background-color: #f7f7f7;
+}
+/*TOP NAVIGATION*/
+.top-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #504190;
+  color: aliceblue;
+  text-decoration: none;
+}
+.top-nav img{
+  margin-left: 50px;
+}
+#profile-pic{
+  border-radius: 100%;
+}
+.fa-solid{
+  padding: 10px;
+  color: white;
+ 
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 10px;
+}
+.flex-profile-container{
+  display: flex;
+  align-items: center;
+}
+.flex-profile-container > *{
+  padding: 10px;
+}
+
+
+
+/*SIDE-BAR NAVIGATION*/
+.side-nav{
+  position: fixed;
+  background-color: #6f5cc4;
+  width: 15%;
+  height: 100vh;
+  left:0;
+  font-size: 1.1rem;
+}
+.side-nav li{
+  position: relative;
+  text-indent: 10%;
+  list-style: none;
+  padding: 15px;
+  cursor: pointer;
+  
+}
+.side-nav li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom: 0;
+  width: 0px;
+  background-color:#fdfdfd;
+  transition: 0.3s all ease-in-out;
+}
+.side-nav li:hover::before{
+  width: 7px;
+  border-radius: 0 6px 6px 0;
+}
+.side-nav li:hover{
+  background-color: #7e6cca;
+}
+
+
+/*TOP-CONTENT OF MAIN CONTENT*/
+.main-user-container{
+  position: relative;
+  display: flex;
+  left: 15%;
+  width: 85%;
+  justify-content: space-between;
+  
+}
+.main-user-top{
+  display: flex;
+  height: 60px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px grey;
+  
+  
+}
+.main-user-top > div{
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 20px;
+  color:#838da2;
+  font-size: 1.1rem;
+  width: 100px;
+  text-align: center;
+  border-bottom: 3px inset rgba(126, 108, 202, 0);
+  transition: 0.3s;
+  
+}
+.main-user-top >div:hover{
+  color: black;
+  border-bottom: 3px inset rgba(126, 108, 202, 1);
+}
+.main-user-top div:nth-child(1){
+  border-radius: 8px 0px 0px 8px;
+}
+.main-user-top div:nth-child(2){
+  border-radius: 0px 8px 8px 0px;
+}
+.main-user-container .search-field{
+  width: 60%;
+  height: 70px;
+
+}
+input{
+  font-size: 1.1rem;
+  margin: 17px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 35%;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.total-members{
+ margin: 20px;
+}
+
+
+.main-user-top-nav{
+  display: flex;
+  height: auto;
+  margin: 10px;
+  margin-left: 30px;
+}
+.main-user-top-nav div:nth-child(1){
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.main-user-top-nav div:nth-child(2){
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+  padding: 10px 24px 10px 24px;
+  background-color: #6f5cc4;
+  color: white;
+  border-radius: 4px;
+  
+}
+.filter-btn{
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin: 10px;
+  margin-left: 30px;
+}
+.filter-btn div{
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+  padding: 5px 24px 5px 15px;
+  background-color: #6f5cc4;
+  color: white;
+  border-radius: 4px;
+  
+}
+
+
+
+
+
+/*
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 250px;
+  }
+
+  */
