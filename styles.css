@@ -1,7 +1,7 @@
 *{
   margin: 0;
   font-family:cursive;
-
+  
 }
 
 body{
@@ -90,7 +90,7 @@ a{
 .main-user-top{
   display: flex;
   height: 60px;
-  margin: 10px;
+  margin: 20px 10px 10px 20px;
   border-radius: 8px;
   box-shadow: 0px 2px 10px grey;
   
@@ -125,7 +125,7 @@ a{
 }
 input{
   font-size: 1.1rem;
-  margin: 17px;
+  margin: 20px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid black;
@@ -179,6 +179,50 @@ input{
 }
 
 
+
+.main-data-container{
+  position: relative;
+  width: 82.8%;
+  left: 15%;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+
+.table-header{
+  display: grid;
+  grid-template-columns: 10% 18% 18%  18%  10% 15% auto;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.table-header > div{
+  color: #99a2b2;
+  padding: 20px;
+}
+
+
+.table-content-row{
+  display: grid;
+  grid-template-columns: 10% 18% 18%  18%  10% 15% auto;
+}
+
+.table-content-row:hover{
+  background-color: #e9e9e9
+}
+
+
+.table-content-row > div{
+  padding: 20px 0px 20px 20px;
+  font-size: 15px;
+ 
+}
+
+
+.table-content-row div:nth-child(1){
+  padding: 3px 20px 0px 20px;
+ 
+}
 
 
 
