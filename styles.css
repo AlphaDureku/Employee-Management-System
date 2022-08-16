@@ -1,7 +1,7 @@
 *{
   margin: 0;
   font-family:cursive;
-  
+ 
 }
 
 body{
@@ -192,8 +192,10 @@ input{
 
 .table-header{
   display: grid;
-  grid-template-columns: 10% 18% 18%  18%  10% 15% auto;
+  grid-template-columns: 10% 18% 18%  18%  10% 15% 11%;
   border-bottom: 1px solid #e9e9e9;
+  overflow-wrap: break-word;
+  
 }
 
 .table-header > div{
@@ -204,7 +206,8 @@ input{
 
 .table-content-row{
   display: grid;
-  grid-template-columns: 10% 18% 18%  18%  10% 15% auto;
+  grid-template-columns: 10% 18% 18%  18%  10% 15% 11%;
+  overflow-wrap: break-word;
 }
 
 .table-content-row:hover{
@@ -215,6 +218,7 @@ input{
 .table-content-row > div{
   padding: 20px 0px 20px 20px;
   font-size: 15px;
+  
  
 }
 
@@ -242,3 +246,8 @@ input{
   }
 
   */
+
+  @media all and (max-width: 1200px) {
+
+    
+  }
