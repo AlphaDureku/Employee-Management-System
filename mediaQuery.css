@@ -1,0 +1,308 @@
+@media all and (max-width: 1200px) {
+
+    
+  #menu-btn{
+        display: block;
+  }
+  
+  .side-nav{
+    display: none;
+  }
+  .main-user-container{
+    left: 0%;
+    width: 96.5%
+  }
+  .main-data-container{
+    width: 96%;
+    left: 0;
+  }
+
+
+/*--------------Add-member HTML--------------*/
+  .add-member-container{
+    width: 90%;
+    left: 5%
+ 
+
+
+  }
+
+  #roles{
+    width: 53.8%;
+  }
+  .form-grid-container > div:nth-child(odd) {
+    margin-left: 50%;
+    
+  }
+  .form-btn {
+    position: relative;
+    left: 35%;
+    
+  }
+
+
+}
+
+
+
+
+@media all and (max-width: 1024px) {
+  .main-user-top > div{
+    padding: 20px;
+    font-size: 1rem;
+    width: 60px;    
+ 
+  }
+
+  .main-user-top-nav div:nth-child(1){
+    width: 80px;
+    font-size: 1.45rem;
+    margin-left: -10px;
+  }
+
+  .main-user-top-nav div:nth-child(2){
+    padding: 8px 20px 8px 20px;
+    
+  }
+
+    .filter-btn div{
+      padding: 3px 20px 3px 11px;
+    }
+
+    .form-grid-container label {
+      font-size: 16px;
+    }
+    #roles{
+      width: 54.8%;
+    }
+    .form-grid-container > div:nth-child(odd) {
+      margin-left: 45%;
+      
+    }
+    .form-btn {
+      position: relative;
+      left: 30%;
+      
+    }
+}
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+  
+    .user-name{
+        display: none;
+    }
+
+    #menu-btn{
+      font-size: 1.7rem;
+      margin-left: 10px;
+    }
+   
+    .table-header > div{
+        padding: 10px;
+        font-size: 13px;
+    }
+    .table-content-row >div{
+        font-size: 10px;
+        padding: 0 10px 0 10px;
+    }
+    #myInput{
+      width: 200px;
+    }
+    .main-data-container{
+      left: -5px;
+    }
+
+    .table-content-row div img{
+      margin-left: -10px;
+    }
+
+
+    .form-grid-container label {
+      font-size: 14px;
+    }
+
+    #roles{
+      width: 55.8%;
+    }
+    .form-grid-container > div:nth-child(odd) {
+      margin-left: 40%;
+      
+    }
+    .form-btn {
+      position: relative;
+      left: 25%;
+      
+    }
+ 
+}
+
+@media all and (max-width: 600px){
+  #myInput{
+    width: 120px;
+  }
+  .main-data-container{
+    left: -7px;
+  }
+  .form-grid-container > div:nth-child(odd) {
+    margin-left: 35%;
+    
+  }
+  .form-btn {
+    position: relative;
+    left: 20%;
+    
+  }
+}
+
+@media all and (max-width: 500px) {
+  .main-user-top{
+    height: 50px;
+    margin-left: 8px;
+   }
+  .main-user-top > div{
+      padding: 15px;
+      font-size: 0.8rem;
+      width: 50px;      
+   
+    }
+  
+  #myInput{
+      margin-left: 5px;
+      border-radius: 4px;
+      font-size: 0.6rem;
+     
+  }
+  .total-members{
+    font-size: 0.8rem;
+  }
+  .main-data-container{
+    left: -8px;
+  }
+  .table-content-row div img{
+    margin-left: -20px;
+  }
+  .form-grid-container > div:nth-child(odd) {
+    margin-left: 30%;
+    
+  }
+  .form-btn {
+    position: relative;
+    left: 17%;
+    
+  }
+
+}
+
+
+@media all and (max-width: 430px) {
+
+ .main-user-top{
+  height: 40px;
+  margin-left: 5px;
+ }
+.main-user-top > div{
+    padding: 12px;
+    font-size: 0.6rem;
+    width: 35px;      
+ 
+  }
+
+#myInput{
+    margin-left: 5px;
+    border-radius: 4px;
+    font-size: 0.6rem;
+   
+}
+
+.total-members{
+  font-size: 0.5rem;
+  right: 0px;
+  
+}
+#profile-pic{
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+#logo{
+  height: 70px;
+  width: 116.6px;
+}
+
+.flex-profile-container > * {
+  padding: 0px;
+}
+.main-user-top-nav div:nth-child(1){
+  width: 80px;
+  font-size: 0.85rem;
+  margin-left: -45px;
+}
+
+.main-user-top-nav div:nth-child(2){
+  padding: 9px 12px 9px 12px;
+  font-size: 0.45rem;
+  margin-left: -20px;
+  
+}
+
+
+.filter-btn div{
+  padding: 0px 8px 0px 0px;
+  font-size: 0.45rem;
+  margin-right: -17px;
+}
+
+.table-header > div{
+  padding: 2px;
+  font-size: 10px;
+}
+
+.table-content-row >div{
+  font-size: 6px;
+  padding: 5px 10px 5px 3px;
+
+}
+
+
+.table-content-row div img{
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+
+ 
+  
+}
+.main-data-container{
+  left: -12px;
+}
+.table-content-row div img{
+  margin-left: -12px;
+}
+
+.form-grid-container label {
+  font-size: 12px;
+}
+
+#roles{
+  width: 60.5%;
+}
+
+
+.form-btn {
+  position: relative;
+  left: 12%;
+  
+}
+
+.form-grid-container > div:nth-child(odd) {
+  margin-left: 25%;
+  
+}
+
+}
